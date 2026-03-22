@@ -16,22 +16,21 @@
 
 ## 📖 Table of Contents
 
-- [About the Project](#-about-the-project)
-- [Key Features](#-key-features)
-- [Technology Stack](#%EF%B8%8F-technology-stack)
-- [Project Architecture](#-project-architecture)
-- [Data Structures Used](#-data-structures-used)
-- [Database Design](#-database-design)
-- [Getting Started](#-getting-started)
-- [Usage](#-usage)
-- [File Structure](#-file-structure)
-- [Screenshots](#-screenshots)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [About the Project](#about-the-project)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Project Architecture](#project-architecture)
+- [Data Structures Used](#data-structures-used)
+- [Database Design](#database-design)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## 📌 About the Project
+## <a id="about-the-project"></a>📌 About the Project
 
 The **Contact Book Application** is a fully-featured command-line contact management system built with **Core Java** and **MySQL**. Unlike typical CRUD applications, this project is engineered from the ground up with **custom data structures** — Binary Search Trees, Linked Lists, Stacks, and Circular Queues — all hand-coded to handle real-world functionality such as fast search, undo operations, and activity logging.
 
@@ -39,7 +38,7 @@ The application supports **multiple independent contact books**, each mapped to 
 
 ---
 
-## 🚀 Key Features
+## <a id="key-features"></a>🚀 Key Features
 
 ### 📁 Multi-Directory Management
 - Create, modify, and delete multiple contact books on-the-fly
@@ -81,7 +80,7 @@ The application supports **multiple independent contact books**, each mapped to 
 
 ---
 
-## 🛠️ Technology Stack
+## <a id="technology-stack"></a>🛠️ Technology Stack
 
 | Component       | Technology                           |
 |-----------------|--------------------------------------|
@@ -93,7 +92,7 @@ The application supports **multiple independent contact books**, each mapped to 
 
 ---
 
-## 🏗 Project Architecture
+## <a id="project-architecture"></a>🏗 Project Architecture
 
 ```
 ┌──────────────────────────────────────────────────────┐
@@ -121,7 +120,7 @@ The application supports **multiple independent contact books**, each mapped to 
 
 ---
 
-## 🧠 Data Structures Used
+## <a id="data-structures-used"></a>🧠 Data Structures Used
 
 | Data Structure       | Class           | Purpose                                                  |
 |----------------------|-----------------|----------------------------------------------------------|
@@ -134,7 +133,7 @@ All data structures are **hand-coded from scratch** — no `java.util.Stack` or 
 
 ---
 
-## 🗄 Database Design
+## <a id="database-design"></a>🗄 Database Design
 
 ### Stored Procedures
 | Procedure                 | Description                        |
@@ -169,7 +168,7 @@ BackupLogs (
 
 ---
 
-## 🏁 Getting Started
+## <a id="getting-started"></a>🏁 Getting Started
 
 ### Prerequisites
 
@@ -212,7 +211,7 @@ java -cp ".;src;mysql-connector-j-9.3.0.jar" MainApplication
 
 ---
 
-## 💡 Usage
+## <a id="usage"></a>💡 Usage
 
 ### Main Menu
 ```
@@ -245,7 +244,7 @@ java -cp ".;src;mysql-connector-j-9.3.0.jar" MainApplication
 
 ---
 
-## 📂 File Structure
+## <a id="file-structure"></a>📂 File Structure
 
 ```
 Contact-Book-Application/
@@ -264,7 +263,7 @@ Contact-Book-Application/
 
 ---
 
-## 🤝 Contributing
+## <a id="contributing"></a>🤝 Contributing
 
 Contributions are welcome! To get started:
 
@@ -276,7 +275,7 @@ Contributions are welcome! To get started:
 
 ---
 
-## 📜 License
+## <a id="license"></a>📜 License
 
 This project is open source and available for educational purposes.
 
